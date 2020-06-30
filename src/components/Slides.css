@@ -1,0 +1,8 @@
+.slideshow{
+  display: grid;
+  margin-bottom: 30px;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  grid-column: 1;
+  grid-row: 1;
+}

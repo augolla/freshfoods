@@ -1,0 +1,20 @@
+.imgDiv{
+  display: grid;
+}
+.imgDiv img{
+  height:90%;
+  width: 100%;
+}
+.imgDiv div{
+  display: flex;
+  justify-content: center;
+  width:60px;
+  height:30px;
+  align-items: center;
+  background: red;
+  float: left;
+}
+.imgDiv div,.imgDiv img{
+  grid-column: 1;
+  grid-row: 1;
+}

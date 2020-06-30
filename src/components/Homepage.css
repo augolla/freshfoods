@@ -1,0 +1,12 @@
+.category{
+  transition: all .4s ease;
+  cursor: pointer;
+}
+.overlay{
+  display: none;
+  transition: all .4s ease;
+}
+
+.category:hover > .overlay{
+  display: block;
+}

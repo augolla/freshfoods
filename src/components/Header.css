@@ -1,0 +1,28 @@
+.Header{
+  background: black;
+}
+
+.navbar-toggler{
+  color: #CACACA;
+}
+.navbar-brand{
+  color: #82AE46;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar-brand:hover{
+  color: #82AE46;
+}
+.navbar-collapse a{
+  color: #CACACA;
+}
+
+.dropdown-menu{
+  border: 2px solid #82AE46;
+}
+.dropdown-menu a{
+  color: black
+}
+.dropdown-menu a:hover{
+  background: #82AE46;
+}
